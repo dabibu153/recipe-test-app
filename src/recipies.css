@@ -1,0 +1,75 @@
+.Block1 {
+  background-color: #1c3334;
+  height: 500px;
+  width: 0 auto;
+  border-radius: 25px;
+  border-color: #edf5e1;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Subblock1 {
+  flex-direction: column;
+}
+
+.Subblock2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.food_name {
+  font-family: "Courier";
+  font-size: 40px;
+  color: #05386b;
+  height: 55px;
+  width: 0 auto;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-shadow: 3px 3px 5px black;
+
+  background-color: #da7b93;
+  border-radius: 5px;
+}
+
+.calorie_count {
+  font-family: "Courier";
+  font-size: 30px;
+  color: #05386b;
+  height: 35px;
+  width: 0 auto;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: 3px 3px 5px black;
+  background-color: #da7b93;
+  border-radius: 5px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  border-radius: 50%;
+}
+
+ol {
+  font-family: "Courier";
+  font-size: 20px;
+  color: #05386b;
+  height: 200px;
+  width: 0 auto;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 3px 3px 5px black;
+  background-color: #da7b93;
+  border-radius: 5px;
+  overflow: scroll;
+  text-align: left;
+}
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+}

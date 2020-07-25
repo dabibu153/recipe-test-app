@@ -1,0 +1,28 @@
+body {
+  background-image: url("./img/wp4254882.jpg");
+}
+
+.Block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Input {
+  width: 250px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border-color: #d9b08c;
+}
+
+.Button {
+  color: white;
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  background: #d9b08c;
+  border-color: #d9b08c;
+}
